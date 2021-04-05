@@ -28,7 +28,16 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        message: 'Provide examples on how to test your project.',
+        message: 'Pick a license for your project.',
+        choices: [
+            'Apache License 2.0',
+            'Boost Software License 1.0',
+            'GNU GPLv2',
+            'GNU GPLv3',
+            'MIT License',
+            'Mozilla Public License 2.0', 
+            'The Unlicense',
+        ]
     },
     {
         type: 'input',
