@@ -1,40 +1,40 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicense(license) {
-  let URL;
+  let url;
   switch (license) {
-    case 'Apache':
-      URL = '[![License: Apache License 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+    case 'Apache License 2.0':
+      url = '[![License: Apache License 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
       break;
-    case 'Boost':
-      URL = '[![License: Boost Software License 1.0](https://img.shields.io/badge/License-Boost%20Software%201.0-yellow.svg)](https://opensource.org/licenses/BSL-1.0)';
+    case 'Boost Software License 1.0':
+      url = '[![License: Boost Software License 1.0](https://img.shields.io/badge/License-Boost%20Software%201.0-yellow.svg)](https://opensource.org/licenses/BSL-1.0)';
       break;
-    case 'GNU2':
-      URL = '[![License: GNU GPLv2](https://img.shields.io/badge/License-GNU%20GPLv2-brightgreen.svg)](https://opensource.org/licenses/GPL-2.0)';
+    case 'GNU GPLv2':
+      url = '[![License: GNU GPLv2](https://img.shields.io/badge/License-GNU%20GPLv2-brightgreen.svg)](https://opensource.org/licenses/GPL-2.0)';
       break;
-    case 'GNU3':
-      URL = '[![License: GNU GPLv3](https://img.shields.io/badge/License-GNU%20GPLv3-green.svg)](https://opensource.org/licenses/GPL-3.0)';
+    case 'GNU GPLv3':
+      url = '[![License: GNU GPLv3](https://img.shields.io/badge/License-GNU%20GPLv3-green.svg)](https://opensource.org/licenses/GPL-3.0)';
       break;
-    case 'MIT':
-      URL = '[![License: Boost Software License 1.0](https://img.shields.io/badge/License-MIT%20License-red.svg)](https://opensource.org/licenses/MIT)';
+    case 'MIT License':
+      url = '[![License: MIT License](https://img.shields.io/badge/License-MIT%20License-red.svg)](https://opensource.org/licenses/MIT)';
       break;
-    case 'Mozilla':
-      URL = '[![License: Mozilla Public License 2.0](https://img.shields.io/badge/License-Mozilla%20Public%202.0-orange.svg)](https://opensource.org/licenses/MPL-2.0)';
+    case 'Mozilla Public License 2.0':
+      url = '[![License: Mozilla Public License 2.0](https://img.shields.io/badge/License-Mozilla%20Public%202.0-orange.svg)](https://opensource.org/licenses/MPL-2.0)';
       break;
-    case 'Unlicense':
-      URL = '[![License: The Unlicense](https://img.shields.io/badge/License-The%20Unlicense-green.svg)](https://opensource.org/licenses/unlicense)';
+    case 'The Unlicense':
+      url = '[![License: The Unlicense](https://img.shields.io/badge/License-The%20Unlicense-green.svg)](https://opensource.org/licenses/unlicense)';
       break;
     default:
-      URL = '';
+      url = '';
       break;
   }
-  return URL;
+  return url;
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  
+  ${renderLicense(data.license)}
   ## Description
 
   ${data.description}
@@ -51,7 +51,8 @@ function generateMarkdown(data) {
 
   ## Installation
   
-  ${data.installation}
+  To install dependencies, type the following:
+  \`${data.installation}\`
 
   ## Usage
 
@@ -63,6 +64,8 @@ function generateMarkdown(data) {
 
   ## License
 
+  This application is licensed under ${data.license}. Click the badge for more information on how you can use this project.
+  <br>
   ${renderLicense(data.license)}
 
   ## Contributing
@@ -71,7 +74,8 @@ function generateMarkdown(data) {
 
   ## Tests
 
-  ${data.tests}
+  To run tests, type the following:
+  \`${data.tests}\`
 
   ## Questions
   If you have any questions, feel free to reach out to me at ${data.email}. To view more of my projects, visit my profile ${data.github}.
