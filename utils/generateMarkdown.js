@@ -1,5 +1,3 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 function renderLicense(license) {
   let url;
   switch (license) {
@@ -31,7 +29,6 @@ function renderLicense(license) {
   return url;
 }
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicense(data.license)}
@@ -52,7 +49,9 @@ function generateMarkdown(data) {
   ## Installation
   
   To install dependencies, type the following:
-  \`${data.installation}\`
+  \`\`\`md
+  ${data.installation}
+  \`\`\`
 
   ## Usage
 
@@ -75,7 +74,9 @@ function generateMarkdown(data) {
   ## Tests
 
   To run tests, type the following:
-  \`${data.tests}\`
+  \`\`\`md
+  ${data.tests}
+  \`\`\`
 
   ## Questions
   If you have any questions, feel free to reach out to me at ${data.email}. To view more of my projects, visit my profile ${data.github}.
