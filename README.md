@@ -47,4 +47,4 @@
   [![License: MIT License](https://img.shields.io/badge/License-MIT%20License-red.svg)](https://opensource.org/licenses/MIT)
 
   ## Questions
-  If you have any questions, feel free to reach out to me at smakela.now@gmail.com. To view more of my projects, visit my profile github.com/smakela13.
+  If you have any questions, feel free to reach out to me at smakela.now@gmail.com.
