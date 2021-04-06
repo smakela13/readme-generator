@@ -1,8 +1,8 @@
-# Professional README Generator
-  [![License: MIT License](https://img.shields.io/badge/License-MIT%20License-red.svg)](https://opensource.org/licenses/MIT)
+# Work Day Calendar
+  [![License: Apache License 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   ## Description
 
-  This application can easily allow a user to generate a professional README file without needing to reference a guide each time they create a new project.
+  The work day calendar allows a user to enter their plans for the day with the current time and date to easily feel in control of their day.
 
   ## Table of Contents
 
@@ -23,21 +23,21 @@
 
   ## Usage
 
-  The user will follow all of the provided prompts, and when they are done, they will be able to use the README generated for them in their repository.
+  To use the calendar, simply click on the box related to the time you'd like to schedule for, type in your plans, and hit the save icon. Your schedule will be saved until you make changes.
 
   ## Credits
 
-  I'd like to credit the instructional staff for their help.
+  Jack Jackson and John Johnson
 
   ## License
 
-  This application is licensed under MIT License. Click the badge for more information on how you can use this project.
+  This application is licensed under Apache License 2.0. Click the badge for more information on how you can use this project.
   <br>
-  [![License: MIT License](https://img.shields.io/badge/License-MIT%20License-red.svg)](https://opensource.org/licenses/MIT)
+  [![License: Apache License 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Contributing
 
-  To contribute to this project, view the Contributor Covenant and then feel free to email me at the email address listed below!
+  To contribute to the Work Day Calendar, simply look over the Contributer Covenant and then send me an email at the address listed below.
 
   ## Tests
 
