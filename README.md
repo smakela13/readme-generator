@@ -25,6 +25,8 @@
 
   The user will follow all of the provided prompts, and when they are done, they will be able to use the README generated for them in their repository.
 
+  ![Sarah Makela's README Generator](./assets/images/screenshot-readme.png)
+
   Navigate to [the video](https://drive.google.com/file/d/1dCztLp3BIur8hJ-1jlMiQJPzq_dB4Qsi/view?usp=sharing) to see how the application works.
 
   ## Credits
