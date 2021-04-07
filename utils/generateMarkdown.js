@@ -1,3 +1,4 @@
+// Function renders license and license badge for user
 function renderLicense(license) {
   let url;
   switch (license) {
@@ -29,6 +30,7 @@ function renderLicense(license) {
   return url;
 }
 
+// Function generates the README file with inputted data for the user
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicense(data.license)}
