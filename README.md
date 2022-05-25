@@ -29,13 +29,13 @@
   ```
   Then, the user will follow all of the provided prompts, and when they are done, they will be able to use the README generated for them in their repository.
 
-  ![Sarah Makela's README Generator](./assets/images/screenshot-readme.png)
+  ![Soma Makela's README Generator](./assets/images/screenshot-readme.png)
 
   Navigate to [the video](https://drive.google.com/file/d/1UoMx6IR5M0htshSIMk7l3kfyXcpW8rh-/view) to see how the application works.
 
   ## Credits
 
-  Created by [Sarah Makela](https://github.com/smakela13).
+  Created by [Soma Makela](https://github.com/smakela13).
   
   Uses [Screencastify](https://app.screencastify.com/) for video recording.
 
